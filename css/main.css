@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.left {
+  background-image: url(../images/bg-main-mobile.png);
+  height: 40vh;
+  background-size: cover;
+  width: 100%;
+}
+.left .front {
+  height: 130px;
+  position: relative;
+  left: 20px;
+  bottom: 15px;
+}
+.left .front #number {
+  position: relative;
+  z-index: 1;
+  top: 100px;
+  left: 30px;
+  color: white;
+}
+.left .front #name {
+  position: relative;
+  z-index: 1;
+  top: 105px;
+  left: 30px;
+  color: white;
+  font-size: 10px;
+}
+.left .front #date {
+  position: relative;
+  z-index: 1;
+  top: 93px;
+  left: 200px;
+  color: white;
+  font-size: 10px;
+}
+.left .back {
+  height: 130px;
+  position: relative;
+  top: 28px;
+  left: 80px;
+}
+
+.right {
+  margin-top: 2rem;
+}
+.right .card {
+  color: hsl(278deg, 68%, 11%);
+}
+.right .card form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 50px;
+  margin: 0 2rem;
+}
+.right .card form input {
+  padding: 1rem 10rem 1rem 0.5rem;
+}
+.right .card form button {
+  margin: 2rem 1.5rem;
+  padding: 1rem 8rem;
+  background-color: hsl(278deg, 68%, 11%);
+  color: white;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 1440px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left {
+    width: 60%;
+    height: 100vh;
+  }
+  .left .front {
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    height: 30vh;
+  }
+  .left .front #number {
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    left: 160px;
+    color: white;
+  }
+  .left .front #name {
+    position: relative;
+    z-index: 1;
+    top: 105px;
+    left: 160px;
+    color: white;
+    font-size: 10px;
+  }
+  .left .front #date {
+    position: relative;
+    z-index: 1;
+    top: 93px;
+    left: 345px;
+    color: white;
+    font-size: 10px;
+  }
+  .left .back {
+    position: relative;
+    top: 150px;
+    left: 150px;
+    height: 30vh;
+  }
+}/*# sourceMappingURL=main.css.map */
