@@ -85,34 +85,45 @@
     bottom: 100px;
     left: 100px;
     height: 30vh;
+    font-size: 20px;
   }
   .left .front #number {
     position: relative;
     z-index: 1;
-    top: 100px;
+    top: 50px;
     left: 160px;
     color: white;
   }
   .left .front #name {
     position: relative;
     z-index: 1;
-    top: 105px;
+    top: 60px;
     left: 160px;
     color: white;
     font-size: 10px;
+    font-size: 15px;
   }
   .left .front #date {
     position: relative;
     z-index: 1;
-    top: 93px;
-    left: 345px;
+    top: 43px;
+    left: 400px;
     color: white;
     font-size: 10px;
+    font-size: 15px;
   }
   .left .back {
     position: relative;
-    top: 150px;
+    top: 180px;
     left: 150px;
     height: 30vh;
+  }
+  .right {
+    margin: 10rem 5rem;
+  }
+  .right .card form button:hover {
+    background-color: green;
+    color: white;
+    transition: 0.5s ease-in-out;
   }
 }/*# sourceMappingURL=main.css.map */
